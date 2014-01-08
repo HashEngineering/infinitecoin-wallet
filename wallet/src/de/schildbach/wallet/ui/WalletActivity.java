@@ -88,7 +88,7 @@ import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
 import com.google.bitcoin.core.*;
 
-import de.schildbach.wallet.digitalcoin.R;
+import de.schildbach.wallet.infinitecoin.R;
 
 
 /**

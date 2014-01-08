@@ -1,19 +1,19 @@
-Samodzielny portfel digitalcoin dla Twojego urządzenia Android. Możesz wysyłać digitalcoin pomiędzy telefonami skanując kod QR, który jest wyświetlany przez aplikacje, lub przez NFC (Near Field Communication).
+Samodzielny portfel Infinitecoin dla Twojego urządzenia Android. Możesz wysyłać Infinitecoin pomiędzy telefonami skanując kod QR, który jest wyświetlany przez aplikacje, lub przez NFC (Near Field Communication).
 
 FUNKCJE:
 
-• Wyświetlanie stanu konta portfela w digitalcoin i rożnych innych walutach.
-• Wysyłanie i odbieranie digitalcoin przez NFC, kod QR albo digitalcoin URL.
-• Książka adresowa dla regularnie używanych adresów digitalcoin.
+• Wyświetlanie stanu konta portfela w Infinitecoin i rożnych innych walutach.
+• Wysyłanie i odbieranie Infinitecoin przez NFC, kod QR albo Infinitecoin URL.
+• Książka adresowa dla regularnie używanych adresów Infinitecoin.
 • Możliwość dodania transakcji offline, wykonywanych po połączeniu z siecią.
-• Notyfikacje systemowe o połączeniu z siecią digitalcoin i otrzymanych monetach.
-• Widget na stan konta digitalcoin.
+• Notyfikacje systemowe o połączeniu z siecią Infinitecoin i otrzymanych monetach.
+• Widget na stan konta Infinitecoin.
 
-Więcej o digitalcoin dowiesz się pod adresem:
-http://digitalcoin.co
+Więcej o Infinitecoin dowiesz się pod adresem:
+http://infinitecoin.com
 
-Jeżeli chcesz wesprzeć digitalcoin Wallet, kody źródłowe projektu znajdują się pod adresem:
-https://github.com/HashEngineering/digitalcoin-wallet
+Jeżeli chcesz wesprzeć Infinitecoin Wallet, kody źródłowe projektu znajdują się pod adresem:
+https://github.com/HashEngineering/infinitecoin-wallet
 
 Licencja: GPLv3
 Używanie jedynie na własne ryzyko!

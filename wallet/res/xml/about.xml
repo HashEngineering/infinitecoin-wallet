@@ -9,8 +9,8 @@
 			android:summary="© 2011-2013, Andreas Schildbach\n2013 HashEngineering Solutions"
 			android:title="Copyright" />
         <Preference
-                android:summary="Version 1.0.0.0 and above"
-                android:title="digitalcoin Compatibility" />
+                android:summary="Version 1.8.5 and above"
+                android:title="Infinitecoin Compatibility" />
 		<Preference
 			android:key="about_license"
 			android:title="@string/about_license_title" />

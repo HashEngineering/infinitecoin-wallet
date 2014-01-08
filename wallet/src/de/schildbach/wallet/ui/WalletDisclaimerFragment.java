@@ -38,7 +38,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.service.BlockchainService;
-import de.schildbach.wallet.digitalcoin.R;
+import de.schildbach.wallet.infinitecoin.R;
 
 
 /**

@@ -42,7 +42,7 @@ import de.schildbach.wallet.AddressBookProvider;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.WalletUtils;
 
-import de.schildbach.wallet.digitalcoin.R;
+import de.schildbach.wallet.infinitecoin.R;
 
 
 public class WalletAddressesAdapter extends BaseAdapter

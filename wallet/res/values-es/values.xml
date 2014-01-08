@@ -2,10 +2,10 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>DGC, 8 dígitos</item>
-		<item>DGC, 6 dígitos</item>
-		<item>DGC, 4 dígitos</item>
-		<item>mDGC, 2 dígitos</item>
+		<item>IFC, 8 dígitos</item>
+		<item>IFC, 6 dígitos</item>
+		<item>IFC, 4 dígitos</item>
+		<item>mIFC, 2 dígitos</item>
 	</string-array>
 
 </resources>

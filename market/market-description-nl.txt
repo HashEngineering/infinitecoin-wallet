@@ -1,19 +1,19 @@
-Dit is een standalone digitalcoin Wallet voor uw Android apparaat. U kan direct digitalcoins versturen tussen telefoons door simpelweg de QR-code te scannen die de app weergeeft of via NFC (Near Field Communication).
+Dit is een standalone Infinitecoin Wallet voor uw Android apparaat. U kan direct Infinitecoins versturen tussen telefoons door simpelweg de QR-code te scannen die de app weergeeft of via NFC (Near Field Communication).
 
 FUNCTIES:
 
-• Weergeven van het wallet saldo in digitalcoin en verschillende andere valuta.
-• Verzenden en ontvangen van digitalcoin via NFC, QR-codes of digitalcoin URLs.
-• Adresboek voor veelgebruikte digitalcoin adressen.
+• Weergeven van het wallet saldo in Infinitecoin en verschillende andere valuta.
+• Verzenden en ontvangen van Infinitecoin via NFC, QR-codes of Infinitecoin URLs.
+• Adresboek voor veelgebruikte Infinitecoin adressen.
 • Transacties ingeven tijdens het offline zijn, deze zullen worden uitgevoerd wanneer u online komt.
-• Systeem melding over digitalcoin connectiviteit en ontvangen digitalcoins.
-• Widget voor digitalcoin saldo.
+• Systeem melding over Infinitecoin connectiviteit en ontvangen Infinitecoins.
+• Widget voor Infinitecoin saldo.
 
-Voor meer informatie over digitalcoin kunt u terecht op
-http://digitalcoin.co
+Voor meer informatie over Infinitecoin kunt u terecht op
+http://infinitecoin.com
 
-Als u een bijdrage wil leveren aan digitalcoin Wallet, het project is te vinden op
-https://github.com/HashEngineering/digitalcoin-wallet
+Als u een bijdrage wil leveren aan Infinitecoin Wallet, het project is te vinden op
+https://github.com/HashEngineering/infinitecoin-wallet
 
 Licentie: GPLv3
 Gebruik op eigen risico!

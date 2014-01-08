@@ -1,11 +1,14 @@
-<<<<<<< HEAD
+-----------------Infinitecoin Wallet
+v1.0.185
+Forked bitcoin-wallet v3.28 for Infinitecoin V1.8.5 (http://infinitecoin.com)
+
+
 -----------------digitalcoin Wallet
 v1.00
-Forked bitcoin-wallet v3.23 for digitalcoin V1.00 (http://digitalcoin.co)
+Forked bitcoin-wallet v3.28 for digitalcoin V1.00 (http://infinitecoin.com)
 
 =================Bitcoin Wallet
-=======
-=======
+
 v3.28
 
 * for those who still use the unsecure address (pre-August), moves coins to secure addresses

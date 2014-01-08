@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-Sizin digitalcoinleriniz, kendi cebinizde!
+Sizin Infinitecoinleriniz, kendi cebinizde!
 =======
 Kendi Bitcoinleriniz, kendi cebinizde!
 >>>>>>> upstream/prod

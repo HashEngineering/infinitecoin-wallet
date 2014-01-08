@@ -47,7 +47,7 @@ import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.Io;
 
-import de.schildbach.wallet.digitalcoin.R;
+import de.schildbach.wallet.infinitecoin.R;
 
 
 /**

@@ -1,20 +1,20 @@
-Com este aplicativo você sempre terá seus digitalcoins com você, no seu bolso! Você poderá efetuar pagamentos simplesmente escaneando um código QR ou aproximando dois telefones (NFC). O digitalcoin Wallet foi desenvolvido visando a funcionalidade, segurança e velocidade.
+Com este aplicativo você sempre terá seus Infinitecoins com você, no seu bolso! Você poderá efetuar pagamentos simplesmente escaneando um código QR ou aproximando dois telefones (NFC). O Infinitecoin Wallet foi desenvolvido visando a funcionalidade, segurança e velocidade.
 
 CARACTERÍSTICAS:
 
 • Nenhum servidor cloud ou serviço web é necessário! Esta carteira utiliza peer to peer.
-• Visualização do saldo da carteira em digitalcoins e outras moedas.
-• Envio e recebimento de digitalcoins via NFC, códigos QR ou endereços digitalcoin.
+• Visualização do saldo da carteira em Infinitecoins e outras moedas.
+• Envio e recebimento de Infinitecoins via NFC, códigos QR ou endereços Infinitecoin.
 • Catálogo para guardar os endereços mais utilizados.
 • As transações efetuadas offline são processadas quando conectado.
-• Notificações de sistema para conectividade digitalcoin e recebimento de moedas.
-• Widget para saldo de digitalcoins.
+• Notificações de sistema para conectividade Infinitecoin e recebimento de moedas.
+• Widget para saldo de Infinitecoins.
 
-Mais informações sobre digitalcoin em
-http://digitalcoin.co
+Mais informações sobre Infinitecoin em
+http://infinitecoin.com
 
-Se você deseja contribuir com o digitalcoin Wallet, o projeto encontra-se em
-https://github.com/HashEngineering/digitalcoin-wallet
+Se você deseja contribuir com o Infinitecoin Wallet, o projeto encontra-se em
+https://github.com/HashEngineering/infinitecoin-wallet
 
 Licença: GPLv3
 Use por sua conta e risco!

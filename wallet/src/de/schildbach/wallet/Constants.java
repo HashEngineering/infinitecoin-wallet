@@ -28,7 +28,7 @@ import com.google.bitcoin.params.MainNetParams;
 import com.google.bitcoin.params.TestNet3Params;
 import com.google.bitcoin.core.CoinDefinition;
 
-import de.schildbach.wallet.digitalcoin.R;
+import de.schildbach.wallet.infinitecoin.R;
 
 
 /**
@@ -91,13 +91,13 @@ public class Constants
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
 
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
-    public static final String FORKED_FROM_SOURCE = "based on bitcoin-wallet 3.23\n";
+    public static final String FORKED_FROM_SOURCE = "based on bitcoin-wallet 3.28\n";
 	public static final String SOURCE_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName + "-wallet";
 	public static final String BINARY_URL = "http://code.google.com/p/bitcoin-wallet/downloads/list";
 	public static final String CREDITS_BITCOINJ_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName + "j";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
-    public static final String CREDITS_WEBSITE_URL = "http://digitalcoin.co/";
-    public static final String CREDITS_FORUM_URL = "http://digitalcoin.co/forums/";
+    public static final String CREDITS_WEBSITE_URL = "http://www.infiniteco.in/index.html";
+    public static final String CREDITS_FORUM_URL = "http://infinitecointalk.org/";
 	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?action=profile;u=2062";
 
 	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/#!/HashEngineering";
