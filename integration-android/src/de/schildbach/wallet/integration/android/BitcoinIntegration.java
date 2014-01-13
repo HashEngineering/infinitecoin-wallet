@@ -173,7 +173,7 @@ public final class BitcoinIntegration
 	{
 		Toast.makeText(context, "No Infinitecoin application found.\nPlease install Infinitecoin Wallet.", Toast.LENGTH_LONG).show();
 
-		final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=de.schildbach.wallet"));
+		final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=de.schildbach.wallet.infinitecoin"));
 		final Intent binaryIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://code.google.com/p/bitcoin-wallet/downloads/list"));
 
 		final PackageManager pm = context.getPackageManager();
