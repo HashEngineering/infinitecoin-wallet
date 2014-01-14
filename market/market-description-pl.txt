@@ -10,7 +10,7 @@ FUNKCJE:
 • Widget na stan konta Infinitecoin.
 
 Więcej o Infinitecoin dowiesz się pod adresem:
-http://infinitecoin.com
+http://infiniteco.in
 
 Jeżeli chcesz wesprzeć Infinitecoin Wallet, kody źródłowe projektu znajdują się pod adresem:
 https://github.com/HashEngineering/infinitecoin-wallet

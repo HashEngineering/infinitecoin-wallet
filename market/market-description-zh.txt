@@ -11,7 +11,7 @@
 • 无限币网络连接状态显示以及交易通知。
 • 无限币余额的程序插件。
 
-更多关于无限币的信息请点击：http://infinitecoin.com
+更多关于无限币的信息请点击：http://infiniteco.in
 如果你想赞助无限币钱包软件开发项目，该项目位于：https://github.com/HashEngineering/infinitecoin-wallet
 
 许可协议: GPLv3

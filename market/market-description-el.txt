@@ -10,7 +10,7 @@
 • App widget για το υπόλοιπο των Infinitecoin.
 
 Μπορείτε να βρείτε περισσότερα για τη χρήση Infinitecoin στο
-http://infinitecoin.com
+http://infiniteco.in
 
 Αν θέλετε να συμβάλει στη τη χρήση του Infinitecoin Wallet, το έργο βρίσκεται εδώ:
 https://github.com/HashEngineering/infinitecoin-wallet

@@ -12,7 +12,7 @@ FEATURES:
 • App widget for Infinitecoin balance.
 
 You can find more about Infinitecoin at
-http://infinitecoin.com
+http://infiniteco.in
 
 If you want to contribute to Infinitecoin Wallet, the project is located at
 https://github.com/HashEngineering/infinitecoin-wallet

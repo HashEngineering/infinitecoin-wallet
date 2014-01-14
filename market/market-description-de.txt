@@ -12,7 +12,7 @@ FEATURES:
 • App-Widget zeigt Infinitecoin-Guthaben an.
 
 Weitere Informationen zu Infinitecoin findest Du unter
-http://infinitecoin.com
+http://infiniteco.in
 
 Wenn Du zu Infinitecoin Wallet beitragen willst, das Projekt befindet sich auf
 https://github.com/HashEngineering/infinitecoin-wallet

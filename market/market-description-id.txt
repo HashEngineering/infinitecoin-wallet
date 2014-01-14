@@ -11,7 +11,7 @@ FITUR:
 • Widget Apl untuk saldo Infinitecoin.
 
 Anda dapat mengetahui lebih mengenai Infinitecoin di
-http://infinitecoin.com
+http://infiniteco.in
 
 Jika Anda ingin berkontribusi kepada Infinitecoin Wallet, proyeknya berada di
 https://github.com/HashEngineering/infinitecoin-wallet

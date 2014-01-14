@@ -11,7 +11,7 @@ Infinitecoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuya
 • Infinitecoin bakiyesini görüntüleyen widget.
 
 Infinitecoin hakkında daha fazla bilgi için şu siteyi ziyaret edebilirsiniz:
-http://infinitecoin.com
+http://infiniteco.in
 
 Infinitecoin Wallet uygulamasına katkıda bulunmak istiyorsanız proje sayfasını ziyaret ediniz:
 https://github.com/HashEngineering/infinitecoin-wallet

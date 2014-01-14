@@ -10,7 +10,7 @@ FUNCTIES:
 • Widget voor Infinitecoin saldo.
 
 Voor meer informatie over Infinitecoin kunt u terecht op
-http://infinitecoin.com
+http://infiniteco.in
 
 Als u een bijdrage wil leveren aan Infinitecoin Wallet, het project is te vinden op
 https://github.com/HashEngineering/infinitecoin-wallet

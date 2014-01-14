@@ -12,7 +12,7 @@
 • Виджет для отображения баланса Infinitecoin.
 
 Вы можете узнать больше о Infinitecoin на
-http://infinitecoin.com
+http://infiniteco.in
 
 Если вы хотите помочь бумажнику Infinitecoin, проект располагается по адресу
 https://github.com/HashEngineering/infinitecoin-wallet

@@ -11,7 +11,7 @@ ELŐNYÖK:
 • Widget a Infinitecoin egyenlegről
 
 Bővebben a Infinitecoin-ról:
-http://infinitecoin.com
+http://infiniteco.in
 
 Ha hozzájárulnál a Infinitecoin Wallet projekthez, megtalálod a következő címen:
 https://github.com/HashEngineering/infinitecoin-wallet

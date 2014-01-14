@@ -10,7 +10,7 @@ VLASTNOSTI:
 • Widget s celkovým zůstatkem.
 
 Více informací o Infinitecoinech
-http://infinitecoin.com
+http://infiniteco.in
 
 Pokud chcete přispět do projektu Infinitecoin Wallet, naleznete jej na adrese
 https://github.com/HashEngineering/infinitecoin-wallet

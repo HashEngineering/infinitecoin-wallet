@@ -10,7 +10,7 @@ FUNKTIONER:
 • App widget som visar plånbokens värde.
 
 Du kan lära dig mer om Infinitecoin genom att besöka
-http://infinitecoin.com
+http://infiniteco.in
 
 Om du vill hjälpa till med utvecklingen av Infinitecoin Wallet så kan du hitta projektet här
 https://github.com/HashEngineering/infinitecoin-wallet

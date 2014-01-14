@@ -11,7 +11,7 @@ FEATURES:
 • וידגט להצגת יתרה.
 
 בהתקנה ראשונה עלול להיראות מסך לבן לזמן מה, הדבר תקין.
-לפרטים נוספים : http://infinitecoin.com
+לפרטים נוספים : http://infiniteco.in
 
 הארנק הוא פרויקט בקוד פתוח בגוגל, אם ברצונך לתרום:
 https://github.com/HashEngineering/infinitecoin-wallet

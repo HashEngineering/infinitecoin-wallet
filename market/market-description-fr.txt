@@ -11,7 +11,7 @@ FONCTIONS:
 • App widget pour le solde du compte Bitcoin.
 
 Pour en savoir plus sur Infinitecoin:
-http://infinitecoin.com
+http://infiniteco.in
 
 Si vous voulez contribuer à  Infinitecoin Wallet, le projet se trouve à
 https://github.com/HashEngineering/infinitecoin-wallet

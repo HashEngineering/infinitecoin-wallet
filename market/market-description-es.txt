@@ -10,7 +10,7 @@ CARACTERÍSTICAS:
 • Widget de aplicación para el saldo Infinitecoin.
 
 Puedes descubrir más sobre Infinitecoin en
-http://infinitecoin.com
+http://infiniteco.in
 
 Si quieres contribuir a Infinitecoin Wallet, el proyecto está localizado en
 https://github.com/HashEngineering/infinitecoin-wallet

@@ -11,7 +11,7 @@ TÍNH NĂNG:
 • Tiện ích dành riêng cho Infinitecoin.
 
 Bạn có thể tìm hiểu thêm về Infinitecoin tại
-http://infinitecoin.com
+http://infiniteco.in
 
 Nếu bạn có ý tưởng đóng góp cho Infinitecoin Wallet, hãy truy cập vào trang web
 https://github.com/HashEngineering/infinitecoin-wallet
