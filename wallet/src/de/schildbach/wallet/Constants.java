@@ -84,7 +84,7 @@ public class Constants
 
 	public static final int BTC_MAX_PRECISION = 8;
 	public static final int MBTC_MAX_PRECISION = 5;
-	public static final int LOCAL_PRECISION = 4;
+	public static final int LOCAL_PRECISION = 8;
 
 	public static final String DONATION_ADDRESS = CoinDefinition.DONATION_ADDRESS;
 	public static final String REPORT_EMAIL = "hashengineeringsolutions@gmail.com";
@@ -100,7 +100,7 @@ public class Constants
 	public static final String BINARY_URL = "http://code.google.com/p/bitcoin-wallet/downloads/list";
 	public static final String CREDITS_BITCOINJ_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName + "j";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
-    public static final String CREDITS_WEBSITE_URL = "http://www.infiniteco.in/index.html";
+    public static final String CREDITS_WEBSITE_URL = "http://www.infiniteco.in/";
     public static final String CREDITS_FORUM_URL = "http://infinitecointalk.org/";
 	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?action=profile;u=2062";
 
