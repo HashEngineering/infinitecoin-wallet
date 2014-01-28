@@ -32,7 +32,6 @@
 	<string name="wallet_transactions_row_warning_backup">Chúc mừng, bạn đã nhận được phần thanh toán đầu tiên của mình! Bạn đã &lt;u&gt;sao lưu ví tiền của mình&lt;/u&gt;, để tránh việc thất thoát hay chưa?</string>
 	<string name="wallet_transactions_fragment_coinbase">đã khai thác</string>
 	<string name="wallet_options_backup">Sao lưu khóa</string>
-	<string name="wallet_options_disconnect">Ngắt kết nối</string>
 	<string name="wallet_options_safety">Ghi chú an toàn</string>
 	<string name="wallet_options_donate">Gợi ý / Ủng hộ</string>
 	<string name="wallet_donate_address_label">Ủng hộ </string>
@@ -99,10 +98,7 @@
 	<string name="transaction_row_message_received_unconfirmed_locked">Phần chi trả này không theo đúng tiêu chuẩn và bởi thế không đáng tin cậy</string>
 	<string name="transaction_row_message_received_dead">Phần chi trả này đã được chuyển ngược về phía người gửi.</string>
 	<string name="transaction_row_message_received_dust">Số lượng nhỏ này có thể không mang tính kinh tế cho lắm khi dành cho chi tiêu.</string>
-	<string name="amount_calculator_dialog_title">Máy tính tiền tệ</string>
-	<string name="amount_calculator_dialog_button_use">Sử dụng</string>
-	<string name="amount_calculator_dialog_exchange_rate">IFC 1 trị giá khoảng %1$s %2$s\nGiá được tải về từ %3$s</string>
-	<string name="amount_calculator_dialog_exchange_rate_not_available">Tỉ lệ hoán đổi hiện không có.</string>
+
 	<string name="network_monitor_activity_title">Giám sát mạng</string>
 	<string name="network_monitor_peer_list_title">Ngang hàn</string>
 	<string name="network_monitor_block_list_title">Block</string>
@@ -167,7 +163,9 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Gửi báo cáo sử dụng…</string>
 	<string name="about_title">Thông tin</string>
 	<string name="about_license_title">Giấy phép</string>
+
 	<string name="about_credits_bitcoinj_title">Ứng dụng này đang sử dụng Infinitecoinj %s</string>
+
 	<string name="about_credits_zxing_title">Ứng dụng này sử dụng \'zxing\'</string>
 	<string name="about_credits_icon_title">Ứng dụng này sử dụng biểu tượng bởi \'bitboy\'</string>
 	<string name="about_author_twitter_title">Liên hệ tác giả bằng Twitter</string>

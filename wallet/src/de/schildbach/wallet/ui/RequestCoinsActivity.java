@@ -1,5 +1,5 @@
 /*
- * Copyright 2011-2013 the original author or authors.
+ * Copyright 2011-2014 the original author or authors.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,9 +22,7 @@ import android.os.Bundle;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-
 import de.schildbach.wallet.infinitecoin.R;
-
 
 /**
  * @author Andreas Schildbach
@@ -60,7 +58,7 @@ public final class RequestCoinsActivity extends AbstractBindServiceActivity
 				return true;
 
 			case R.id.request_coins_options_help:
-				HelpDialogFragment.page(getSupportFragmentManager(), "help_request_coins");
+				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_request_coins);
 				return true;
 		}
 

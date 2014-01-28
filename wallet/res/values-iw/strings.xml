@@ -30,7 +30,6 @@
 	<string name="wallet_transactions_fragment_empty_text_howto">איך להשיג ביטקוין ?</string>
 	<string name="wallet_transactions_fragment_coinbase">נכרו</string>
 	<string name="wallet_options_backup">מפתחות גיבוי</string>
-	<string name="wallet_options_disconnect">מנותק</string>
 	<string name="wallet_options_safety">הוראות בטיחות</string>
 	<string name="wallet_options_donate">תרומה</string>
 	<string name="wallet_donate_address_label"></string>
@@ -98,10 +97,7 @@
 	<string name="transaction_row_message_received_unconfirmed_unlocked">התשלום יהיה זמין בעוד מספר דקות</string>
 	<string name="transaction_row_message_received_unconfirmed_locked">לא ניתן לבטוח בתשלום זה</string>
 	<string name="transaction_row_message_received_dead">תשלום זה בוטל על ידי השולח</string>
-	<string name="amount_calculator_dialog_title">מחשבון המרה</string>
-	<string name="amount_calculator_dialog_button_use">השתמש</string>
-	<string name="amount_calculator_dialog_exchange_rate">IFC 1 = %1$s %2$s\n fetched from %3$s</string>
-	<string name="amount_calculator_dialog_exchange_rate_not_available">יחס המרה לא זמין</string>
+
 	<string name="peer_list_fragment_empty">אין שכנים מחוברים</string>
 	<string name="peer_list_row_ping_time">⇆ %d&#x2009;ms</string>
 	<string name="import_keys_dialog_title">ייבא מפתחות פפרטיים</string>

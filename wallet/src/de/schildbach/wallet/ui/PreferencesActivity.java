@@ -1,5 +1,5 @@
 /*
- * Copyright 2011-2013 the original author or authors.
+ * Copyright 2011-2014 the original author or authors.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -45,7 +45,6 @@ import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.infinitecoin.R;
 
-
 /**
  * @author Andreas Schildbach
  */
@@ -84,6 +83,9 @@ public final class PreferencesActivity extends SherlockPreferenceActivity implem
 
 		final Preference dataUsagePreference = findPreference(PREFS_KEY_DATA_USAGE);
 		dataUsagePreference.setEnabled(getPackageManager().resolveActivity(dataUsageIntent, 0) != null);
+
+		final Preference bluetoothOfflineTransactionsPreference = findPreference(Constants.PREFS_KEY_LABS_BLUETOOTH_OFFLINE_TRANSACTIONS);
+		bluetoothOfflineTransactionsPreference.setEnabled(Build.VERSION.SDK_INT >= Constants.SDK_JELLY_BEAN_MR2);
 
 		final ActionBar actionBar = getSupportActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);

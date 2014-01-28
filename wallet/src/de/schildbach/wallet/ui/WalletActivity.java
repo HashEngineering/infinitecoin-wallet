@@ -1,5 +1,5 @@
 /*
- * Copyright 2011-2013 the original author or authors.
+ * Copyright 2011-2014 the original author or authors.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -87,7 +87,6 @@ import de.schildbach.wallet.util.Iso8601Format;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
 import com.google.bitcoin.core.*;
-
 import de.schildbach.wallet.infinitecoin.R;
 
 
@@ -227,7 +226,6 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 		menu.findItem(R.id.wallet_options_import_keys).setEnabled(
 				Environment.MEDIA_MOUNTED.equals(externalStorageState) || Environment.MEDIA_MOUNTED_READ_ONLY.equals(externalStorageState));
 		menu.findItem(R.id.wallet_options_export_keys).setEnabled(Environment.MEDIA_MOUNTED.equals(externalStorageState));
-		menu.findItem(R.id.wallet_options_disconnect).setVisible(prefs.getBoolean(Constants.PREFS_KEY_CONNECTIVITY_NOTIFICATION, false));
 
 		return true;
 	}
@@ -269,10 +267,6 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 				handleExportKeys();
 				return true;
 
-			case R.id.wallet_options_disconnect:
-				handleDisconnect();
-				return true;
-
 			case R.id.wallet_options_preferences:
 				startActivity(new Intent(this, PreferencesActivity.class));
 				return true;
@@ -282,7 +276,7 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 				return true;
 
 			case R.id.wallet_options_safety:
-				HelpDialogFragment.page(getSupportFragmentManager(), "safety");
+				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_safety);
 				return true;
 
 			case R.id.wallet_options_donate:
@@ -290,7 +284,7 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 				return true;
 
 			case R.id.wallet_options_help:
-				HelpDialogFragment.page(getSupportFragmentManager(), "help");
+				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_wallet);
 				return true;
 		}
 
@@ -317,12 +311,6 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 		showDialog(DIALOG_EXPORT_KEYS);
 
 		prefs.edit().putBoolean(Constants.PREFS_KEY_REMIND_BACKUP, false).commit();
-	}
-
-	private void handleDisconnect()
-	{
-		getWalletApplication().stopBlockchainService();
-		finish();
 	}
 
 	@Override

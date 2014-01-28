@@ -1,14 +1,48 @@
+
 -----------------Infinitecoin Wallet
-v1.0.185
+
+v0.1.4
+
+v0.1.0
 Forked bitcoin-wallet v3.28 for Infinitecoin V1.8.5 (http://infiniteco.in)
 
 
------------------digitalcoin Wallet
-v1.00
-Forked bitcoin-wallet v3.28 for digitalcoin V1.00 (http://infiniteco.in)
-
 =================Bitcoin Wallet
 
+
+digitalcoin Wallet
+-----------------
+v1.0.1.3
+
+* Added checkpoints file for faster blockchain sync
+* Sync with bitcoin-wallet 3.30
+
+v1.0.1.2
+
+* Fix broken diff adjust in 1.0.1.1
+
+v1.0.1.1
+
+*  updated digitalcoin 1.0.1 - difficulty adjustment fork
+
+v1.00
+* Forked bitcoin-wallet v3.23 for digitalcoin V1.00 (http://digitalcoin.co)
+
+Bitcoin Wallet
+-------------------
+v3.30
+
+* improved battery usage
+* new Danish translation
+* updated Polish translation
+
+v3.29
+
+* fixed issues with fetching exchange rates
+* new Slovak translation
+* updated French, Hungarian, Italian and Portuguese translations
+
+>>>>>>> upstream/prod
 v3.28
 
 * for those who still use the unsecure address (pre-August), moves coins to secure addresses

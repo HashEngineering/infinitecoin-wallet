@@ -23,7 +23,6 @@
 	<string name="wallet_transactions_fragment_empty_text_received">Inga Infinitecoins har hittills mottagits</string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Inga Infinitecoins har hittills skickats</string>
 	<string name="wallet_transactions_fragment_coinbase">genererade</string>
-	<string name="wallet_options_disconnect">Koppla från</string>
 	<string name="wallet_options_safety">Säkerhetsinfo</string>
 	<string name="wallet_options_donate">Donera</string>
 	<string name="wallet_low_storage_dialog_title">Interna utrymmet på telefonen börjar ta slut!</string>
@@ -78,14 +77,14 @@
 	<string name="edit_address_book_entry_dialog_address_label">Adress</string>
 	<string name="edit_address_book_entry_dialog_label_label">Namn</string>
 	<string name="edit_address_book_entry_dialog_button_edit">Spara</string>
-	<string name="amount_calculator_dialog_title">Valuta kalkylator</string>
-	<string name="amount_calculator_dialog_button_use">Använd</string>
 	<string name="peer_list_fragment_empty">Inga peers anslutna</string>
 	<string name="input_parser_invalid_bitcoin_uri">Ogiltig Infinitecoinadress:\n%s</string>
 	<string name="input_parser_invalid_address">Fick ogiltig Infinitecoinadress!\n(Blandar du ihop Mainnet/Testnet?)</string>
 	<string name="about_title">Om</string>
 	<string name="about_license_title">Licens</string>
+
 	<string name="about_credits_bitcoinj_title">Denna app använder Infinitecoinj %s</string>
+
 	<string name="about_credits_zxing_title">Denna app använder \'zxing\'</string>
 	<string name="about_credits_icon_title">Appen använder en ikon av \'bitboy\'</string>
 	<string name="about_author_twitter_title">Utvecklaren på Twitter</string>

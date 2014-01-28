@@ -1,5 +1,5 @@
 /*
- * Copyright 2013 the original author or authors.
+ * Copyright 2013-2014 the original author or authors.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -40,7 +40,6 @@ import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.infinitecoin.R;
 
-
 /**
  * @author Andreas Schildbach
  */
@@ -76,7 +75,7 @@ public final class WalletDisclaimerFragment extends Fragment implements OnShared
 				if (showBackup)
 					((WalletActivity) activity).handleExportKeys();
 				else
-					HelpDialogFragment.page(getFragmentManager(), "safety");
+					HelpDialogFragment.page(getFragmentManager(), R.string.help_safety);
 			}
 		});
 

@@ -34,7 +34,6 @@
 	<string name="wallet_transactions_fragment_coinbase">ditambang</string>
 	<string name="wallet_transactions_fragment_internal">Internal</string>
 	<string name="wallet_options_backup">Cadangkan Kunci</string>
-	<string name="wallet_options_disconnect">Putuskan</string>
 	<string name="wallet_options_safety">Nota keamanan</string>
 	<string name="wallet_options_donate">Tip / Donasi</string>
 	<string name="wallet_donate_address_label">Donasi untuk Infinitecoin Wallet</string>
@@ -104,10 +103,7 @@
 	<string name="transaction_row_message_received_unconfirmed_locked">Pembayaran ini tidak standar dan tidak dpt dipercayai.</string>
 	<string name="transaction_row_message_received_dead">Pembayaran ini dibatalkan oleh pengirim.</string>
 	<string name="transaction_row_message_received_dust">Jumlah kecil ini tidak akan pernah bisa digunakan secara ekonomis.</string>
-	<string name="amount_calculator_dialog_title">Kalkulator mata uang</string>
-	<string name="amount_calculator_dialog_button_use">Gunakan</string>
-	<string name="amount_calculator_dialog_exchange_rate">IFC 1 seharga sekitar %1$s %2$s\nHarga diambil dari %3$s</string>
-	<string name="amount_calculator_dialog_exchange_rate_not_available">Nilai tukar tidak tersedia.</string>
+
 	<string name="network_monitor_activity_title">Monitor Jaringan</string>
 	<string name="network_monitor_peer_list_title">Peer</string>
 	<string name="network_monitor_block_list_title">Blok</string>
@@ -175,6 +171,7 @@
 	<string name="about_title">Mengenai</string>
 	<string name="about_license_title">Lisensi</string>
 	<string name="about_credits_bitcoinj_title">Apl ini menggunakan Infinitecoinj %s</string>
+
 	<string name="about_credits_zxing_title">Apl ini menggunakan \'zxing\'</string>
 	<string name="about_credits_icon_title">Apl ini menggunakan ikon oleh \'bitboy\'</string>
 	<string name="about_author_twitter_title">Pembuat di Twitter</string>
