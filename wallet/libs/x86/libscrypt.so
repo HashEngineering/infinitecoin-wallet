@@ -1,0 +1,980 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>bitcoin-wallet/wallet/libs/x86/libscrypt.so at 5cf92e43718175a02ae953e182a8712906da37d8 · Litecoin-Java/bitcoin-wallet</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+    <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="Litecoin-Java/bitcoin-wallet" name="twitter:title" /><meta content="bitcoin-wallet - Bitcoin Wallet app for your Android device. Standalone Bitcoin node, no centralized backend required." name="twitter:description" /><meta content="https://identicons.github.com/47f407f6ea6147b4f47dc88e7c473c8d.png" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://identicons.github.com/47f407f6ea6147b4f47dc88e7c473c8d.png" property="og:image" /><meta content="Litecoin-Java/bitcoin-wallet" property="og:title" /><meta content="https://github.com/Litecoin-Java/bitcoin-wallet" property="og:url" /><meta content="bitcoin-wallet - Bitcoin Wallet app for your Android device. Standalone Bitcoin node, no centralized backend required." property="og:description" />
+
+    <meta name="hostname" content="github-fe121-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 2.1.0p0-github-tcmalloc (60139581e1) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="ACFA50C8:7524:8782A5:52E8B2E1" name="octolytics-dimension-request_id" /><meta content="5956129" name="octolytics-actor-id" /><meta content="HashEngineering" name="octolytics-actor-login" /><meta content="d59cca81482dd4ade66525a43e88c4ae9fc306797e35438ff6890211d962b129" name="octolytics-actor-hash" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="SWcMvLNgPYlChpXSypx5PqbQm4VcGKNNppV+RnHBs2E=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-0478ea9e95cc93e1a70825ae35edb9442b6cdaa8.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-cbc94a4003bd46254396c84ea27279435cc08f0c.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-2086b76396d7018acf390457357b14121f3e16f3.js" type="text/javascript"></script>
+      <script async="async" defer="defer" src="https://github.global.ssl.fastly.net/assets/github-29423a3a76be35e1238a4142a63b3408a2fe8124.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="005db5158b1c30ad354d9e6bced7f8ac">
+
+        <link data-pjax-transient rel='permalink' href='/Litecoin-Java/bitcoin-wallet/blob/5cf92e43718175a02ae953e182a8712906da37d8/wallet/libs/x86/libscrypt.so'>
+
+  <meta name="description" content="bitcoin-wallet - Bitcoin Wallet app for your Android device. Standalone Bitcoin node, no centralized backend required." />
+
+  <meta content="5936299" name="octolytics-dimension-user_id" /><meta content="Litecoin-Java" name="octolytics-dimension-user_login" /><meta content="15558684" name="octolytics-dimension-repository_id" /><meta content="Litecoin-Java/bitcoin-wallet" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="true" name="octolytics-dimension-repository_is_fork" /><meta content="3886965" name="octolytics-dimension-repository_parent_id" /><meta content="schildbach/bitcoin-wallet" name="octolytics-dimension-repository_parent_nwo" /><meta content="3886965" name="octolytics-dimension-repository_network_root_id" /><meta content="schildbach/bitcoin-wallet" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/Litecoin-Java/bitcoin-wallet/commits/5cf92e43718175a02ae953e182a8712906da37d8.atom" rel="alternate" title="Recent Commits to bitcoin-wallet:5cf92e43718175a02ae953e182a8712906da37d8" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_in  env-production windows vis-public fork page-blob">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      <div class="header header-logged-in true">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+    
+    <a href="/notifications" class="notification-indicator tooltipped downwards" data-gotokey="n" title="You have no unread notifications">
+        <span class="mail-status all-read"></span>
+</a>
+
+      <div class="command-bar js-command-bar  in-repository">
+          <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    data-username="HashEngineering"
+      data-repo="Litecoin-Java/bitcoin-wallet"
+      data-branch="5cf92e43718175a02ae953e182a8712906da37d8"
+      data-sha="7cd39f1575cf444c2366acb172b987731f65f75d"
+  >
+
+    <input type="hidden" name="nwo" value="Litecoin-Java/bitcoin-wallet" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+        <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+            <li><a href="https://gist.github.com">Gist</a></li>
+            <li><a href="/blog">Blog</a></li>
+          <li><a href="https://help.github.com">Help</a></li>
+        </ul>
+      </div>
+
+    
+
+
+  <ul id="user-links">
+    <li>
+      <a href="/HashEngineering" class="name">
+        <img alt="HashEngineering" height="20" src="https://0.gravatar.com/avatar/fea61ceb076ce71fe0312595667d170a?d=https%3A%2F%2Fidenticons.github.com%2F9f92608889acc1729d9f9f39e5230689.png&amp;r=x&amp;s=140" width="20" /> HashEngineering
+      </a>
+    </li>
+
+    <li class="new-menu dropdown-toggle js-menu-container">
+      <a href="#" class="js-menu-target tooltipped downwards" title="Create new..." aria-label="Create new...">
+        <span class="octicon octicon-plus"></span>
+        <span class="dropdown-arrow"></span>
+      </a>
+
+      <div class="js-menu-content">
+      </div>
+    </li>
+
+    <li>
+      <a href="/settings/profile" id="account_settings"
+        class="tooltipped downwards"
+        aria-label="Account settings "
+        title="Account settings ">
+        <span class="octicon octicon-tools"></span>
+      </a>
+    </li>
+    <li>
+      <a class="tooltipped downwards" href="/logout" data-method="post" id="logout" title="Sign out" aria-label="Sign out">
+        <span class="octicon octicon-log-out"></span>
+      </a>
+    </li>
+
+  </ul>
+
+<div class="js-new-dropdown-contents hidden">
+  
+
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo-create"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+
+    <li class="section-title">
+      <span title="Litecoin-Java/bitcoin-wallet">This repository</span>
+    </li>
+      <li>
+        <a href="/Litecoin-Java/bitcoin-wallet/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+</div>
+
+
+    
+  </div>
+</div>
+
+      
+
+      
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="SWcMvLNgPYlChpXSypx5PqbQm4VcGKNNppV+RnHBs2E=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="15558684" />
+
+    <div class="select-menu js-menu-container js-select-menu">
+      <a class="social-count js-social-count" href="/Litecoin-Java/bitcoin-wallet/watchers">
+        6
+      </a>
+      <span class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye-watch"></span>
+          Watch
+        </span>
+      </span>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notification status</span>
+            <span class="octicon octicon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container" role="menu">
+
+            <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                <h4>Not watching</h4>
+                <span class="description">You only receive notifications for conversations in which you participate or are @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-watch"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                <h4>Watching</h4>
+                <span class="description">You receive notifications for all conversations in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-unwatch"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore" />
+                <h4>Ignoring</h4>
+                <span class="description">You do not receive any notifications for conversations in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+  
+
+  <div class="js-toggler-container js-social-container starring-container ">
+    <a href="/Litecoin-Java/bitcoin-wallet/unstar"
+      class="minibutton with-count js-toggler-target star-button starred upwards"
+      title="Unstar this repository" data-remote="true" data-method="post" rel="nofollow">
+      <span class="octicon octicon-star-delete"></span><span class="text">Unstar</span>
+    </a>
+
+    <a href="/Litecoin-Java/bitcoin-wallet/star"
+      class="minibutton with-count js-toggler-target star-button unstarred upwards"
+      title="Star this repository" data-remote="true" data-method="post" rel="nofollow">
+      <span class="octicon octicon-star"></span><span class="text">Star</span>
+    </a>
+
+      <a class="social-count js-social-count" href="/Litecoin-Java/bitcoin-wallet/stargazers">
+        3
+      </a>
+  </div>
+
+  </li>
+
+
+        <li>
+          <a href="/Litecoin-Java/bitcoin-wallet/fork" class="minibutton with-count js-toggler-target fork-button lighter upwards" title="Fork this repo" rel="facebox nofollow">
+            <span class="octicon octicon-git-branch-create"></span><span class="text">Fork</span>
+          </a>
+          <a href="/Litecoin-Java/bitcoin-wallet/network" class="social-count">80</a>
+        </li>
+
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo-forked"></span>
+          <span class="author">
+            <a href="/Litecoin-Java" class="url fn" itemprop="url" rel="author"><span itemprop="title">Litecoin-Java</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/Litecoin-Java/bitcoin-wallet" class="js-current-repository js-repo-home-link">bitcoin-wallet</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+            <span class="fork-flag">
+              <span class="text">forked from <a href="/schildbach/bitcoin-wallet">schildbach/bitcoin-wallet</a></span>
+            </span>
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      
+
+      <div class="repository-with-sidebar repo-container  new-discussion-timeline js-new-discussion-timeline">
+
+        <div class="repository-sidebar">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/Litecoin-Java/bitcoin-wallet" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /Litecoin-Java/bitcoin-wallet">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" title="Issues">
+          <a href="/Litecoin-Java/bitcoin-wallet/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /Litecoin-Java/bitcoin-wallet/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>14</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" title="Pull Requests">
+        <a href="/Litecoin-Java/bitcoin-wallet/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /Litecoin-Java/bitcoin-wallet/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>1</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped leftwards" title="Wiki">
+          <a href="/Litecoin-Java/bitcoin-wallet/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_wiki /Litecoin-Java/bitcoin-wallet/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/Litecoin-Java/bitcoin-wallet/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /Litecoin-Java/bitcoin-wallet/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/Litecoin-Java/bitcoin-wallet/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /Litecoin-Java/bitcoin-wallet/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/Litecoin-Java/bitcoin-wallet/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /Litecoin-Java/bitcoin-wallet/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/Litecoin-Java/bitcoin-wallet.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/Litecoin-Java/bitcoin-wallet.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><strong>SSH</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="git@github.com:Litecoin-Java/bitcoin-wallet.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="git@github.com:Litecoin-Java/bitcoin-wallet.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/Litecoin-Java/bitcoin-wallet" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/Litecoin-Java/bitcoin-wallet" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" title="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+  <a href="github-windows://openRepo/https://github.com/Litecoin-Java/bitcoin-wallet" class="minibutton sidebar-button">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+                <a href="/Litecoin-Java/bitcoin-wallet/archive/5cf92e43718175a02ae953e182a8712906da37d8.zip"
+                   class="minibutton sidebar-button"
+                   title="Download this repository as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:599e785afb5951adb89ae63101ddf852 -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/Litecoin-Java/bitcoin-wallet/find/5cf92e43718175a02ae953e182a8712906da37d8" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
+
+<div class="file-navigation">
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="messy"
+    data-ref=""
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>tree:</i>
+    <span class="js-select-button">5cf92e4371</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/blob/ltc_test/wallet/libs/x86/libscrypt.so"
+                 data-name="ltc_test"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="ltc_test">ltc_test</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/blob/master/wallet/libs/x86/libscrypt.so"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/blob/messy/wallet/libs/x86/libscrypt.so"
+                 data-name="messy"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="messy">messy</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.30.1/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.30.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.30.1">v3.30.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.29.4/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.29.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.29.4">v3.29.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.29.3/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.29.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.29.3">v3.29.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.29.2/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.29.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.29.2">v3.29.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.29.1/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.29.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.29.1">v3.29.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.28/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.28"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.28">v3.28</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.27/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.27"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.27">v3.27</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.24/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.24"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.24">v3.24</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.22/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.22"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.22">v3.22</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.21/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.21"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.21">v3.21</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.19/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.19"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.19">v3.19</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.18/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.18"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.18">v3.18</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.17/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.17"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.17">v3.17</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.16/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.16"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.16">v3.16</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.15/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.15"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.15">v3.15</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.14/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.14"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.14">v3.14</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.13/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.13"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.13">v3.13</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.11/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.11"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.11">v3.11</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.09/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.09"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.09">v3.09</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.08/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.08"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.08">v3.08</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.07/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.07"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.07">v3.07</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.06/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.06"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.06">v3.06</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.05/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.05"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.05">v3.05</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.04/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.04"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.04">v3.04</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.03/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.03"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.03">v3.03</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.02/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.02"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.02">v3.02</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v3.01/wallet/libs/x86/libscrypt.so"
+                 data-name="v3.01"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v3.01">v3.01</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v2.49/wallet/libs/x86/libscrypt.so"
+                 data-name="v2.49"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.49">v2.49</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v2.48/wallet/libs/x86/libscrypt.so"
+                 data-name="v2.48"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.48">v2.48</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/Litecoin-Java/bitcoin-wallet/tree/v2.46/wallet/libs/x86/libscrypt.so"
+                 data-name="v2.46"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.46">v2.46</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/Litecoin-Java/bitcoin-wallet/tree/5cf92e43718175a02ae953e182a8712906da37d8" data-branch="5cf92e43718175a02ae953e182a8712906da37d8" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">bitcoin-wallet</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/Litecoin-Java/bitcoin-wallet/tree/5cf92e43718175a02ae953e182a8712906da37d8/wallet" data-branch="5cf92e43718175a02ae953e182a8712906da37d8" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">wallet</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/Litecoin-Java/bitcoin-wallet/tree/5cf92e43718175a02ae953e182a8712906da37d8/wallet/libs" data-branch="5cf92e43718175a02ae953e182a8712906da37d8" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">libs</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/Litecoin-Java/bitcoin-wallet/tree/5cf92e43718175a02ae953e182a8712906da37d8/wallet/libs/x86" data-branch="5cf92e43718175a02ae953e182a8712906da37d8" data-direction="back" data-pjax="true" itemscope="url" rel="nofollow"><span itemprop="title">x86</span></a></span><span class="separator"> / </span><strong class="final-path">libscrypt.so</strong> <span class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="wallet/libs/x86/libscrypt.so" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+  <div class="commit file-history-tease">
+    <img alt="" class="main-avatar" height="24" src="https://1.gravatar.com/avatar/6cf05c3404d6a576207df22ca3eafb44?d=https%3A%2F%2Fidenticons.github.com%2F92b78b60f9d00a0ac34898be97d15188.png&amp;r=x&amp;s=140" width="24" />
+    <span class="author"><a href="/hank" rel="author">hank</a></span>
+    <time class="js-relative-date" datetime="2014-01-25T10:50:44-08:00" title="2014-01-25 10:50:44">January 25, 2014</time>
+    <div class="commit-title">
+        <a href="/Litecoin-Java/bitcoin-wallet/commit/5cf92e43718175a02ae953e182a8712906da37d8" class="message" data-pjax="true" title="Litecoin: including Intel Atom scrypt
+
+This should optimize syncing on Atom-based devices">Litecoin: including Intel Atom scrypt</a>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>1</strong> contributor</a></p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img alt="" height="24" src="https://1.gravatar.com/avatar/6cf05c3404d6a576207df22ca3eafb44?d=https%3A%2F%2Fidenticons.github.com%2F92b78b60f9d00a0ac34898be97d15188.png&amp;r=x&amp;s=140" width="24" />
+            <a href="/hank">hank</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div id="files" class="bubble">
+  <div class="file">
+    <div class="meta">
+      <div class="info">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">executable file</span>
+        <span>23.056 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+          <a href="/Litecoin-Java/bitcoin-wallet/raw/5cf92e43718175a02ae953e182a8712906da37d8/wallet/libs/x86/libscrypt.so" class="button minibutton " id="raw-url">Raw</a>
+          <a href="/Litecoin-Java/bitcoin-wallet/commits/5cf92e43718175a02ae953e182a8712906da37d8/wallet/libs/x86/libscrypt.so" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+          <a class="minibutton danger disabled empty-icon tooltipped leftwards" href="#"
+             title="You must be on a branch to make or propose changes to this file">
+          Delete
+        </a>
+      </div><!-- /.actions -->
+    </div>
+        <div class="blob-wrapper data type-text js-blob-data">
+      <div class="image js-image">
+          <a href="/Litecoin-Java/bitcoin-wallet/blob/5cf92e43718175a02ae953e182a8712906da37d8/wallet/libs/x86/libscrypt.so?raw=true">View Raw</a>
+      </div>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.04770s from github-fe121-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/Litecoin-Java/bitcoin-wallet/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+
