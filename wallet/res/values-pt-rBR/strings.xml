@@ -72,7 +72,7 @@
 	<string name="send_coins_failed_msg">Erro!</string>
 
 
-	<string name="send_coins_error_msg">Erro ao enviar digitalcoins!</string>
+	<string name="send_coins_error_msg">Erro ao enviar Infinitecoins!</string>
 	<string name="send_coins_options_empty">Carteira vazia</string>
 
 
@@ -86,8 +86,8 @@
 	<string name="request_coins_fragment_initiate_request_qr">Tenha o código lido pelo emissor.</string>
 	<string name="request_coins_fragment_initiate_request_nfc">Ou toque em um dispositivo NFC habilitado.</string>
 	<string name="request_coins_fragment_bluetooth_enabled">Aceitar pagamentos via Bluetooth.</string>
-	<string name="request_coins_clipboard_msg">Solicitação de digitalcoin copiada</string>
-	<string name="request_coins_share_dialog_title">Compartilhar solicitação de digitalcoins…</string>
+	<string name="request_coins_clipboard_msg">Solicitação de Infinitecoin copiada</string>
+	<string name="request_coins_share_dialog_title">Compartilhar solicitação de Infinitecoins…</string>
 
 
 	<string name="request_coins_options_local_app_title">Pedido de aplicação local</string>
@@ -150,12 +150,12 @@
 	<string name="import_export_keys_dialog_failure_title">Erro</string>
 
 
-	<string name="import_keys_intent_filter_action">Restauração de chaves digitalcoin</string>
+	<string name="import_keys_intent_filter_action">Restauração de chaves Infinitecoin</string>
 	<string name="scan_camera_problem_dialog_title">Desculpe</string>
 	<string name="scan_camera_problem_dialog_message">Ocorreu um problema com a câmera. Você provavelmente precisará reiniciar o dispositivo.</string>
 	<string name="input_parser_cannot_classify">Não é possível classificar as entradas:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">Endereços digitalcoin inválidos:\n%s</string>
-	<string name="input_parser_invalid_address">Endereço inválido de digitalcoin!\n(Mixing up Mainnet/Testnet?)</string>
+	<string name="input_parser_invalid_bitcoin_uri">Endereços Infinitecoin inválidos:\n%s</string>
+	<string name="input_parser_invalid_address">Endereço inválido de Infinitecoin!\n(Mixing up Mainnet/Testnet?)</string>
 	<string name="input_parser_invalid_transaction">Transação inválida:\n%s</string>
 
 

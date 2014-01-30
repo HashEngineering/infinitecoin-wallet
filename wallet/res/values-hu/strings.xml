@@ -27,9 +27,9 @@
 	<string name="wallet_transactions_fragment_tab_received">Fogadott</string>
 	<string name="wallet_transactions_fragment_tab_all">Mindkettő</string>
 	<string name="wallet_transactions_fragment_tab_sent">Küldött</string>
-	<string name="wallet_transactions_fragment_empty_text_received">Nem érkezett digitalcoin eddig.</string>
-	<string name="wallet_transactions_fragment_empty_text_sent">digitalcoin küldés nem történt eddig.</string>
-	<string name="wallet_transactions_fragment_empty_text_howto">Hogy szerezz digitalcoin-t?\n\nVásárolj hagyományos pénzért,\nárusíts termékeket, kínálj szolgáltatásokat vagy\nkeress munkával.</string>
+	<string name="wallet_transactions_fragment_empty_text_received">Nem érkezett Infinitecoin eddig.</string>
+	<string name="wallet_transactions_fragment_empty_text_sent">Infinitecoin küldés nem történt eddig.</string>
+	<string name="wallet_transactions_fragment_empty_text_howto">Hogy szerezz Infinitecoin-t?\n\nVásárolj hagyományos pénzért,\nárusíts termékeket, kínálj szolgáltatásokat vagy\nkeress munkával.</string>
 	<string name="wallet_transactions_row_warning_backup">Gratulálunk, megérkezett az első kifizetésed! Ugye rendszeresen &lt;u>elmented a tárcád&lt;/u>, tartalmát, hogy biztonságban legyen?</string>
 
 	<string name="wallet_transactions_fragment_coinbase">bányászott</string>
@@ -147,8 +147,8 @@
 
 
 	<string name="input_parser_cannot_classify">Nem osztályozható bemenet:\n%s</string>
-	<string name="input_parser_invalid_digitalcoin_uri">Érvénytelen digitalcoin URI:\n%s</string>
-	<string name="input_parser_invalid_address">Érvénytelen digitalcoin cím!\n(Keveredés a Mainnet/Testnet-tel?)</string>
+	<string name="input_parser_invalid_bitcoin_uri">Érvénytelen Infinitecoin URI:\n%s</string>
+	<string name="input_parser_invalid_address">Érvénytelen Infinitecoin cím!\n(Keveredés a Mainnet/Testnet-tel?)</string>
 	<string name="input_parser_invalid_transaction">Érvénytelen tranzakció:\n%s</string>
 
 

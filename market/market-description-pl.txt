@@ -1,20 +1,20 @@
-Miej swoje digitalcoiny zawsze w swojej kieszeni! Zapłacisz skanując kod QR. Jako sprzedawca odbierzesz płatności niezawodnie i natychmiastowo. digitalcoin Wallet jest pierwszą aplikacją digitalcoinową na telefony i niezaprzeczalnie najbezpieczniejszą.
+Miej swoje Infinitecoiny zawsze w swojej kieszeni! Zapłacisz skanując kod QR. Jako sprzedawca odbierzesz płatności niezawodnie i natychmiastowo. Infinitecoin Wallet jest pierwszą aplikacją Infinitecoinową na telefony i niezaprzeczalnie najbezpieczniejszą.
 
 WŁAŚCIWOŚCI:
 
 • Brak konieczności rejestracji, serwisu online lub chmury! Ten portfel używa zdecentralizowanej sieci peer-to-peer.
 • Wyświetl ilość kwotę w BTC i mBTC.
 • Zamiana z i na waluty narodowe
-• Wysyłąnie i odbieranie digitalcoin za pomocą NFC, kodów QR czy adresów digitalcoin URL.
-• Książka adresowa dla regularnie używanych adresów digitalcoin.
+• Wysyłąnie i odbieranie Infinitecoin za pomocą NFC, kodów QR czy adresów Infinitecoin URL.
+• Książka adresowa dla regularnie używanych adresów Infinitecoin.
 • Gdy jesteś offline, wciąż możesz zapłacić przy użyciu Bluetooth.
 • System powiadomień dla przychodzących transakcji.
 • Widget aplikacji dla stanu konta.
 
-Dowiedz się więcej o digitalcoin
+Dowiedz się więcej o Infinitecoin
 http://infiniteco.in
 
-Jeśli chcesz przyczynić się do rozwoju digitalcoin Wallet to projekt znajduje się pod adresem
+Jeśli chcesz przyczynić się do rozwoju Infinitecoin Wallet to projekt znajduje się pod adresem
 https://github.com/HashEngineering/infinitecoin-wallet
 
 Licencja: GPLv3

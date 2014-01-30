@@ -11,11 +11,11 @@ FUNKCIE:
 • Notifikácie v stavovej lište pri prijatí Bitcoinov.
 • Widget s celkovým zostatkom.
 
-Viac informácií o Bitcoine
-http://digitalcoin.co
+Viac informácií o Infinitecoine
+http://infiniteco.in
 
 Ak chcete prispieť do projektu Bitcoin Wallet nájdete ho na adrese
-https://github.com/HashEngineering/digitalcoin-wallet
+https://github.com/HashEngineering/infinitecoin-wallet
 
 Licencia: GPLv3
 Použitie len na vlastné riziko!

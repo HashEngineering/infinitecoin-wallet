@@ -13,7 +13,7 @@ which should be compatible between clients using bitcoinj.
 
 Certain actions cause automatic rolling backups of your private keys to app-private storage:
 
-/data/data/de.schildbach.wallet.digitalcoin/files/key-backup-base58 (MODE_PRIVATE)
+/data/data/de.schildbach.wallet.Infinitecoin/files/key-backup-base58 (MODE_PRIVATE)
 	Automatic backups of private keys for Mainnet
 
 /data/data/de.schildbach.wallet_test.infinitecoin/files/key-backup-base58-testnet (MODE_PRIVATE)
