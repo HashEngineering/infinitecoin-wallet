@@ -1,4 +1,4 @@
-Tartsd a zsebedben Bitcoinjaidat! Egyszerűen, akár QR-kód leolvasásával is fizethetsz. Ha pedig termékeket, vagy szolgáltatást értékesítesz megbízható módon és gyorsan juthatsz a bevételeidhez. A Bitcoin Tárca az első Bitcoin app és kétségkívül a legbiztonságosabb is!
+Tartsd a zsebedben Infinitecoinjaidat! Egyszerűen, akár QR-kód leolvasásával is fizethetsz. Ha pedig termékeket, vagy szolgáltatást értékesítesz megbízható módon és gyorsan juthatsz a bevételeidhez. A Infinitecoin Tárca az első Infinitecoin app és kétségkívül a legbiztonságosabb is!
 
 ELŐNYÖK:
 
@@ -8,8 +8,8 @@ ELŐNYÖK:
 • Infinitecoin küldése és fogadása NFC, QR-kód vagy közvetlen URL segítségével.
 • Címtár a rendszeresen használt Infinitecoin címek számára.
 • Offline állapotban is fizethetsz - Bluetooth segítségével.
-• Rendszerüzenet Bitcoin érkezésekor.
-• Widget a Bitcoin egyenlegről.
+• Rendszerüzenet Infinitecoin érkezésekor.
+• Widget a Infinitecoin egyenlegről.
 
 Bővebben a Infinitecoin-ról:
 http://infiniteco.in

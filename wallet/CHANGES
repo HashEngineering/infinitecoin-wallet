@@ -1,13 +1,16 @@
 
 -----------------Infinitecoin Wallet
 
-v0.1.4
+v0.1.5 Beta
+Added checkpoints file for faster sync.
+Fixed InputParser for scanning QR codes.
+Added native support for intel atom chips.
 
-v0.1.0
+v0.1.4 beta
+Update to bitcoin-wallet v3.30
+
+v0.1.0 Beta
 Forked bitcoin-wallet v3.28 for Infinitecoin V1.8.5 (http://infiniteco.in)
-
-
-=================Bitcoin Wallet
 
 
 digitalcoin Wallet

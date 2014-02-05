@@ -102,7 +102,7 @@
 	<string name="address_book_options_paste_from_clipboard_title">Panodan yapıştır</string>
 	<string name="address_book_options_copy_from_clipboard_msg_empty">Pano boş</string>
 	<string name="address_book_options_scan_title">Adresi tara</string>
-	<string name="address_book_row_message_compromised_key">Bu adres tehlikededir. Onu artık bitcoin almak için kullanmamalısınız.</string>
+	<string name="address_book_row_message_compromised_key">Bu adres tehlikededir. Onu artık Infinitecoin almak için kullanmamalısınız.</string>
 	<string name="edit_address_book_entry_dialog_title_add">Adres ekle</string>
 	<string name="edit_address_book_entry_dialog_title_edit">Adres düzenle</string>
 	<string name="edit_address_book_entry_dialog_address_label">Adres</string>
@@ -141,12 +141,12 @@
 	<string name="export_keys_dialog_failure">Özel anahtarlarınız yedeklenemedi:\n%s</string>
 	<string name="export_keys_dialog_button_archive">Arşivle</string>
 	<string name="export_keys_dialog_mail_subject">Infinitecoin Wallet özel anahtar yedeklemesi</string>
-	<string name="export_keys_dialog_mail_text">Eklenen şifreli dosya Bitcoin özel anahtarlarını içermektedir ve güvenli bir yerde saklanmalıdır. Şifreleme parolanızı unutmayınız!</string>
+	<string name="export_keys_dialog_mail_text">Eklenen şifreli dosya Infinitecoin özel anahtarlarını içermektedir ve güvenli bir yerde saklanmalıdır. Şifreleme parolanızı unutmayınız!</string>
 	<string name="export_keys_dialog_mail_intent_chooser">Anahtarları şunu kullanarak arşivle…</string>
 	<string name="import_export_keys_dialog_password">parola</string>
 	<string name="import_export_keys_dialog_show">Parolayı göster</string>
 	<string name="import_export_keys_dialog_failure_title">Hata</string>
-	<string name="import_keys_intent_filter_action">Bitcoin anahtar geri yükleme</string>
+	<string name="import_keys_intent_filter_action">Infinitecoin anahtar geri yükleme</string>
 	<string name="scan_camera_problem_dialog_title">Üzgünüz</string>
 	<string name="scan_camera_problem_dialog_message">Fotoğraf makinesinde bir problem var. Muhtemelen cihazınızı yeniden başlatmanız gerekiyor.</string>
 	<string name="input_parser_cannot_classify">Girdi sınıflandırılamadı:\n%s</string>

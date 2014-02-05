@@ -9,7 +9,7 @@ FONCTIONS :
 • Carnet d'adresse pour les adresses Infinitecoin utilisées régulièrement.
 • Quand vous êtes hors-ligne vous pouvez quand même payez via Bluetooth.
 • Notification du système pour les pièces reçues.
-• Widget affichant le solde Bitcoin.
+• Widget affichant le solde Infinitecoin.
 
 Vous pouvez en apprendre plus au sujet de Infinitecoin sur
 http://infiniteco.in
