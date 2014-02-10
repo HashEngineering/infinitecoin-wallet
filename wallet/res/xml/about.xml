@@ -9,7 +9,7 @@
 			android:summary="© 2011-2014, Andreas Schildbach\n© 2013-2014, HashEngineering Solutions\n"
 			android:title="Copyright" />
         <Preference
-                android:summary="Version 1.8.5 and above"
+                android:summary="Version 1.8.6 and above"
                 android:title="Infinitecoin Compatibility" />
 		<Preference
 			android:key="about_license"
