@@ -489,6 +489,7 @@ public class WalletApplication extends Application
 
 	public void broadcastTransaction(@Nonnull final Transaction tx)
 	{
+        log.info("broadcastTransaction() tx = {}", tx.toString());
 		final Intent intent = new Intent(BlockchainService.ACTION_BROADCAST_TRANSACTION, null, this, BlockchainServiceImpl.class);
 		intent.putExtra(BlockchainService.ACTION_BROADCAST_TRANSACTION_HASH, tx.getHash().getBytes());
 		startService(intent);
