@@ -4,8 +4,8 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	package="de.schildbach.wallet.infinitecoin"
 	android:installLocation="internalOnly"
-	android:versionCode="10027"
-	android:versionName="0.1.7" >
+	android:versionCode="10028"
+	android:versionName="0.1.8" >
 
 
 	<uses-sdk
