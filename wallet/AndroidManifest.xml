@@ -4,8 +4,8 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	package="de.schildbach.wallet.infinitecoin"
 	android:installLocation="internalOnly"
-	android:versionCode="10028"
-	android:versionName="0.1.8" >
+	android:versionCode="10030"
+	android:versionName="0.2.0" >
 
 
 	<uses-sdk
@@ -79,7 +79,7 @@
 			<intent-filter>
 				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-				<data android:mimeType="application/x-dgctx" />
+				<data android:mimeType="application/x-ifctx" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
@@ -94,7 +94,7 @@
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.intent.action.VIEW" />
 
-				<data android:scheme="bitcoin" />
+				<data android:scheme="ifc" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
@@ -102,7 +102,7 @@
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-				<data android:scheme="bitcoin" />
+				<data android:scheme="ifc" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
