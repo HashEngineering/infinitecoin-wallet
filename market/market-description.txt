@@ -3,7 +3,7 @@ Have your Infinitecoins always with you, in your pocket! You pay by quickly scan
 FEATURES:
 
 • No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
-• Display of Infinitecoin amount in DGC and mDGC.
+• Display of Infinitecoin amount in IFC and mIFC.
 • Conversion to and from national currencies.
 • Sending and receiving of Infinitecoin via NFC, QR-codes or Infinitecoin URLs.
 • Address book for regularly used Infinitecoin addresses.

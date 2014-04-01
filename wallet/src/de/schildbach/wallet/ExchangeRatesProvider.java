@@ -534,7 +534,7 @@ public class ExchangeRatesProvider extends ContentProvider
 								{
                                     double rateForBTC = Double.parseDouble(rateStr);
 
-                                    rateStr = String.format("%.8f", rateForBTC * btcRate);
+                                    rateStr = String.format("%.8f", rateForBTC * btcRate).replace(",", ".");
 
 									final BigInteger rate = GenericUtils.toNanoCoins(rateStr, 0);
 

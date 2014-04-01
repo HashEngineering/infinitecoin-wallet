@@ -1,5 +1,11 @@
 
 -----------------Infinitecoin Wallet
+v0.3.0
+
+v0.2.1
+* fixed exchange rates bug that may give no results in locales that use "," instead of "."
+
+v0.2.0
 
 v0.1.5 Beta
 Added checkpoints file for faster sync.
@@ -45,7 +51,6 @@ v3.29
 * new Slovak translation
 * updated French, Hungarian, Italian and Portuguese translations
 
->>>>>>> upstream/prod
 v3.28
 
 * for those who still use the unsecure address (pre-August), moves coins to secure addresses

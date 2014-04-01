@@ -3,7 +3,7 @@ Porta i tuoi Infinitecoin sempre con te, in tasca! Paghi velocemente scansionand
 CARATTERISTICHE:
 
 • Non è necessaria alcuna registrazione, servizio web o cloud! Questo portafoglio è de-centralizzato e peer to peer.
-• Mostra l'ammontare di Infinitecoin in DGC e mDGC.
+• Mostra l'ammontare di Infinitecoin in IFC e mIFC.
 • Conversione verso e dalle monete nazionali.
 • Invio e ricevimento di Infinitecoin tramite NFC, codici QR o URL Infinitecoin.
 • Rubrica degli indirizzi per usare indirizzi Infinitecoin regolarmente.
