@@ -1,20 +1,24 @@
-Consiste en una cartera de Infinitecoins para tu dispositivo Android. Puedes enviar Infinitecoins entre teléfonos haciendo explorar los códigos QR que muestra la aplicación o mediante NFC (Near Field Communication).
+Ten tus Infinitecoins siempre contigo, en tu bolsillo! Paga rápidamente escaneando un código QR. Como comerciante, recibes los pagos de forma fiable e instantáneamente. Infinitecoin Wallet es la primera Infinitecoin app para movil, e incluso la mas segura!
 
 CARACTERÍSTICAS:
 
-• Visualización del saldo de la cartera en Infinitecoin y en otras monedas.
-• Envío y recpción de Infinitecoins a través de NFC, códigos QR o URL Infinitecoin.
-• Libreta de direcciones para guardar las direcciones Infinitecoin utilizadas habitualmente.
-• Las transacciones se pueden llevar a cabo sin conexión, ejecutándose al recuperar la conexión.
-• Notificaciones de sistema para la conectividad a la red Infinitecoin y para la recepción de Infinitecoins.
-• Widget de aplicación para el saldo Infinitecoin.
+• ¡No requiere registro, servidor en la nube o servicio web! Este monedero es auténticamente entre pares (peer-to-peer).
+• Muestra la cantidad de Infinitecoins en BTC y mBTC
+• Conversión a divisas nacionales.
+• Envío y recepción de Infinitecoins vía NFC, códigos QR o URL de Infinitecoin.
+• Libreta de direcciones para guardar las direcciones Infinitecoin más utilizadas.
+• Cuando no tengas conexión, puedes seguir pagando via Bluetooth.
+• Notificación al recibir monedas.
+• Widget para el saldo de Infinitecoins.
+
 
 Puedes descubrir más sobre Infinitecoin en
 http://infiniteco.in
 
-Si quieres contribuir a Infinitecoin Wallet, el proyecto está localizado en
-https://github.com/HashEngineering/infinitecoin-wallet
+
+Si quieres contribuir a Infinitecoin Wallet, el proyecto se encuentra en
+https://github.com/HashEngineering/Infinitecoin-wallet
 
 Licencia: GPLv3
-¡Úsalo bajo tu propia responsabilidad!
+¡Úsalo bajo tu propio riesgo!
 http://www.gnu.org/licenses/gpl-3.0.en.html

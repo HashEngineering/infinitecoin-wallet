@@ -1,8 +1,10 @@
 
 -----------------Infinitecoin Wallet
 v0.3.0
+* merge up to Bitcoin Wallet 3.38 and digitalcoin 0.1.2
+* remove beta from title.
 
-v0.2.1
+v0.2.1 beta
 * fixed exchange rates bug that may give no results in locales that use "," instead of "."
 
 v0.2.0
@@ -21,6 +23,27 @@ Forked bitcoin-wallet v3.28 for Infinitecoin V1.8.5 (http://infiniteco.in)
 
 digitalcoin Wallet
 -----------------
+
+v0.1.2-beta
+* fixed checkpoints to work for the Version 1.0 blocks (between 476280 and 523800)
+* added two nodes from a list of addnodes from the bitcointalk topic
+
+v0.1.1-beta
+* renamed to hashengineering.digitalcoin.wallet
+* added support for importing Bitcoin Private Keys from first digitalcoin app (Crypto-Expert)
+
+v1.0.1.5
+* Fixed menu item doubling on rotate in address screen - langerhans (https://github.com/langerhans/dogecoin-wallet-new)
+* replaced block explorer with blockr.io instead of the apparently dead dgc.cryptocoinexplorer.com
+* Added BTER as a backup for getting exchange rates
+* added mBTC as an exchange rate.
+* added Disconnect feature back in
+* updated to bitcoin-wallet v3.39
+
+v1.0.1.4
+* Updated to v3.31 (bitcoin-wallet)
+* Few bug fixes (import parser)
+
 v1.0.1.3
 
 * Added checkpoints file for faster blockchain sync
@@ -39,6 +62,52 @@ v1.00
 
 Bitcoin Wallet
 -------------------
+
+v3.39
+
+* Usage of BIP70 when initiating payments via NFC (tap-to-pay) is now a supported feature.
+* New translation into Arabic.
+
+v3.38
+
+* Supports BIP70 payment protocol for in-app payments.
+* Accepting direct payments via Bluetooth is now a supported feature.
+
+v3.37
+
+* New translation into Japanese.
+
+v3.36
+
+* Small bugfix.
+
+v3.35
+
+* Protect wallet against dust spam.
+* Fixed some bugs in the payment protocol.
+
+v3.34
+
+* Small bugfix.
+
+v3.33
+
+* Small bugfixes.
+
+v3.32
+
+* Support for BIP72 URI extension for payment protocol.
+
+v3.31
+
+* Default denomination has changed to millibitcoin (mBTC).
+* Cross-calculated exchange rates for currencies without Bitcoin volume. Thanks to BitcoinAverage.
+* Better handling of errors when sending coins, specifically when funds are exceeded.
+* Labs: Uses BIP70 payment protocol for tap-to-pay and scan-to-pay, if enabled in the settings.
+* New translations into Traditional Chinese, Macedonian and Esperanto. Updated Spanish.
+* Resolved issues with wallets with many transactions.
+* Based on bitcoinj 0.11.
+
 v3.30
 
 * improved battery usage

@@ -25,8 +25,8 @@
 	<string name="send_coins_activity_title">Zaslat Infinitecoiny</string>
 	<string name="send_coins_fragment_receiving_address_label">Zaplatit</string>
 	<string name="send_coins_fragment_receiving_address_hint">napište adresu či jméno</string>
+
 	<string name="send_coins_fragment_receiving_address_error">Nesprávná Infinitecoin Adresa!</string>
-	<string name="send_coins_fragment_available_label">Možno utratit</string>
 	<string name="send_coins_fragment_pending">(IFC %s čeká na potvrzení)</string>
 	<string name="send_coins_fragment_amount_label">Částka k zaplacení</string>
 	<string name="send_coins_fragment_button_send">Poslat</string>
@@ -56,7 +56,7 @@
 
 	<string name="about_title">O aplikaci</string>
 	<string name="about_license_title">Licence</string>
-	<string name="about_credits_bitcoinj_title">Aplikace používá Infinitecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Aplikace používá infinitecoinj %s</string>
 	<string name="about_credits_zxing_title">"Aplikace používá 'zxing'"</string>
 	<string name="about_credits_icon_title">"Aplikace používá ikonu od 'bitboy'"</string>
 	<string name="about_author_twitter_title">Autor na Twitteru</string>

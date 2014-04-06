@@ -24,8 +24,8 @@
 	<string name="send_coins_activity_title">Verzend Infinitecoins</string>
 	<string name="send_coins_fragment_receiving_address_label">Betalen naar</string>
 	<string name="send_coins_fragment_receiving_address_hint">typ adres of naam</string>
+
 	<string name="send_coins_fragment_receiving_address_error">Ongeldig Infinitecoin Adres!</string>
-	<string name="send_coins_fragment_available_label">Beschikbaar voor besteding</string>
 	<string name="send_coins_fragment_pending">(IFC %s wachtend op bevestiging)</string>
 	<string name="send_coins_fragment_amount_label">Bedrag te betalen</string>
 	<string name="send_coins_fragment_button_send">Verzenden</string>
@@ -56,7 +56,7 @@
 	<string name="about_title">Over</string>
 	<string name="about_license_title">Licentie</string>
 
-	<string name="about_credits_bitcoinj_title">Deze app gebruikt Infinitecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Deze app gebruikt infinitecoinj %s</string>
 
 	<string name="about_credits_zxing_title">"Deze app gebruikt 'zxing'"</string>
 	<string name="about_credits_icon_title">"Deze app gebruikt een icoon door 'bitboy'"</string>

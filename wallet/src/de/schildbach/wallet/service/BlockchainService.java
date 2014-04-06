@@ -26,6 +26,7 @@ import com.google.bitcoin.core.StoredBlock;
 import de.schildbach.wallet.infinitecoin.R;
 
 
+
 /**
  * @author Andreas Schildbach
  */
@@ -47,6 +48,7 @@ public interface BlockchainService
 	public static final String ACTION_RESET_BLOCKCHAIN = R.class.getPackage().getName() + ".reset_blockchain";
 	public static final String ACTION_BROADCAST_TRANSACTION = R.class.getPackage().getName() + ".broadcast_transaction";
 	public static final String ACTION_BROADCAST_TRANSACTION_HASH = "hash";
+    public static final String ACTION_STOP_SERVICE = "stop_service";
 
 	@CheckForNull
 	List<Peer> getConnectedPeers();

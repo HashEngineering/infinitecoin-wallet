@@ -2,10 +2,10 @@ Infinitecoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuya
 
 İŞLEVLERİ:
 • Hiçbir oturuma, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
-• Infinitecoin meblağlarının BTC ve mBTC olarak gösterilmesi.
-• Dövizlere ve dövizlerden dönüştürme.
-• NFC, QR kodu veya Infinitecoin bağlantıları ile Infinitecoin gönderir ve alır.
-• Sık kullanılan Infinitecoin adresleri için adres defteri içerir.
+• Infinitecoin meblağlarının IFC ve mIFC olarak gösterilmesi.
+• Ulusal para birimlerine ve bu para birimlerinden dönüştürme.
+• NFC, QR kodu veya Bitcoin bağlantıları ile Bitcoin gönderir ve alır.
+• Sık kullanılan Bitcoin adresleri için adres defteri içerir.
 • Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.
 • Alınan Infinitecoin'ler için sistem bildirimleri.
 • Infinitecoin bakiyesini görüntüleyen widget.

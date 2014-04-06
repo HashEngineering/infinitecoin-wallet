@@ -3,13 +3,13 @@ Ayez vos Infinitecoins toujours avec vous dans votre poche ! Payez rapidement en
 FONCTIONS :
 
 • Pas d'inscription, de service Web ou de nuage de nécessaire ! Ce portefeuille est décentralisé et de pair-à-pair.
-• Affichage du montant de Infinitecoin en IFC et mIFC.
+• Affichage du montant de bitcoin en IFC et mIFC.
 • Conversion de et vers des devises nationales.
-• Envoi et réception des Infinitecoin via NFC, codes QR ou des URLs Infinitecoin.
-• Carnet d'adresse pour les adresses Infinitecoin utilisées régulièrement.
+• Envoi et réception des bitcoins via NFC, codes QR ou des URLs bitcoin.
+• Carnet d'adresses pour les adresses bitcoin utilisées régulièrement.
 • Quand vous êtes hors-ligne vous pouvez quand même payez via Bluetooth.
 • Notification du système pour les pièces reçues.
-• Widget affichant le solde Infinitecoin.
+• Widget affichant le solde bitcoin.
 
 Vous pouvez en apprendre plus au sujet de Infinitecoin sur
 http://infiniteco.in
@@ -17,7 +17,7 @@ http://infiniteco.in
 Si vous voulez contribuer à Infinitecoin Wallet, le projet se trouve sur
 https://github.com/HashEngineering/infinitecoin-wallet
 
-
 Licence : GPLv3
 Utilisez à vos propres risques !
+
 http://www.gnu.org/licenses/gpl-3.0.fr.html

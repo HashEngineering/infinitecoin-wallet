@@ -3,7 +3,7 @@
 
 	<PreferenceCategory android:title="@string/preferences_category_main" >
 		<ListPreference
-			android:defaultValue="4"
+			android:defaultValue="2/0"
 			android:entries="@array/preferences_precision_labels"
 			android:entryValues="@array/preferences_precision_values"
 			android:key="btc_precision"
@@ -55,9 +55,9 @@
 			android:title="Show disclaimer" />
 		<CheckBoxPreference
 			android:defaultValue="false"
-			android:key="labs_bluetooth_offline_transactions"
-			android:summary="Accept signed transactions via Bluetooth radio."
-			android:title="Bluetooth offline transactions" />
+			android:key="labs_qr_payment_request"
+			android:summary="Use payment protocol for QR-code initiated payments"
+			android:title="BIP70 for scan-to-pay" />
 	</PreferenceCategory>
 
 </PreferenceScreen>

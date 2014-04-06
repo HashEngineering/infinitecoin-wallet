@@ -27,7 +27,6 @@ import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
 import de.schildbach.wallet.infinitecoin.R;
-
 /**
  * @author Andreas Schildbach
  */

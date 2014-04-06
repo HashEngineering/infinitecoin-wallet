@@ -42,8 +42,9 @@
 	<string name="wallet_low_storage_dialog_msg">Infinitecoin Wallet usa o armazenamento interno para armazenar transações e blocos. Se seu dispositivo ficar sem espaço, ele vai parar de trabalhar e seus Infinitecoins estarão em risco!\n\nDeseja abrir o Gerenciador de Aplicativos para desinstalar aplicativos desnecessários?</string>
 	<string name="wallet_low_storage_dialog_button_apps">Gerenciar Aplicativos</string>
 	<string name="wallet_timeskew_dialog_title">Verifique as configurações de hora!</string>
+
+
 	<string name="wallet_timeskew_dialog_msg">A hora do seu dispositivo está incorreta por %d minutos. Você provavelmente não poderá enviar ou receber Infinitecoins devido a este problema.\n\nVerifique e corrija a hora e as configurações de fuso horário.</string>
-	<string name="wallet_timeskew_dialog_button_settings">Configurações</string>
 	<string name="wallet_version_dialog_title">Nova versão disponível!</string>
 	<string name="wallet_version_dialog_msg">Esta versão corrige erros importantes. Para mais detalhes, consulte o log de alterações no Google Play.</string>
 	<string name="wallet_version_dialog_button_market">Google Play</string>
@@ -56,14 +57,8 @@
 	<string name="send_coins_fragment_receiving_address_error">Endereço Infinitecoin inválido!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network">Não é possível usar o endereço %s com esta carteira!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Não é possível usar um endereço de rede desconhecido com esta carteira!</string>
-	<string name="send_coins_fragment_available_label">Disponível para gastar</string>
 	<string name="send_coins_fragment_pending">(%s IFC esperando confirmação)</string>
 	<string name="send_coins_fragment_amount_label">Quantidade a pagar</string>
-	<string name="send_coins_fragment_amount_empty">Insira a quantidade aqui</string>
-	<string name="send_coins_fragment_amount_error">Quantidade inválida!</string>
-	<string name="send_coins_fragment_bluetooth_enable">Enviar pagamento também via Bluetooth</string>
-	<string name="send_coins_fragment_bluetooth_ack">Seu pagamento foi enviado com sucesso via Bluetooth.</string>
-	<string name="send_coins_fragment_bluetooth_nack">Seu pagamento via Bluetooth foi recusado.</string>
 	<string name="send_coins_fragment_button_send">Enviar</string>
 	<string name="send_coins_fragment_button_back">Voltar</string>
 	<string name="send_coins_preparation_msg">Assinando…</string>
@@ -78,18 +73,13 @@
 
 	<string name="send_coins_address_context_clear_title">Inserir novo endereço</string>
 	<string name="request_coins_activity_title">Solicitar Infinitecoins</string>
-	<string name="request_coins_fragment_address_label">Endereço para solicitação</string>
-	<string name="request_coins_fragment_include_address_label">inserir nome com o endereço</string>
 	<string name="request_coins_fragment_amount_label">Quantidade solicitada (opcional)</string>
 
 
 	<string name="request_coins_fragment_initiate_request_qr">Tenha o código lido pelo emissor.</string>
 	<string name="request_coins_fragment_initiate_request_nfc">Ou toque em um dispositivo NFC habilitado.</string>
-	<string name="request_coins_fragment_bluetooth_enabled">Aceitar pagamentos via Bluetooth.</string>
 	<string name="request_coins_clipboard_msg">Solicitação de Infinitecoin copiada</string>
 	<string name="request_coins_share_dialog_title">Compartilhar solicitação de Infinitecoins…</string>
-
-
 	<string name="request_coins_options_local_app_title">Pedido de aplicação local</string>
 	<string name="address_book_activity_title">Catálogo de endereços</string>
 	<string name="address_book_list_receiving_title">Seus endereços</string>
@@ -102,7 +92,7 @@
 	<string name="address_book_context_copy_to_clipboard_title">Copiar para o clipboard</string>
 	<string name="address_book_context_default_title">Definir como endereço padrão</string>
 	<string name="address_book_options_paste_from_clipboard_title">Colar</string>
-	<string name="address_book_options_copy_from_clipboard_msg_empty">Área de transferência vazia</string>
+	<string name="address_book_options_paste_from_clipboard_empty">Área de transferência vazia</string>
 	<string name="address_book_options_scan_title">Escanear endereço</string>
 	<string name="address_book_row_message_compromised_key">Este endereço pode ser comprometido. Você não deve mais usá-lo para receber moedas.</string>
 	<string name="edit_address_book_entry_dialog_title_add">Adicionar endereço</string>
@@ -193,7 +183,7 @@
 	<string name="about_title">Sobre</string>
 	<string name="about_license_title">Licença</string>
 
-	<string name="about_credits_bitcoinj_title">Este aplicativo utiliza Infinitecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Este aplicativo utiliza infinitecoinj %s</string>
 
 	<string name="about_credits_zxing_title">Este aplicativo utiliza \'zxing\'</string>
 	<string name="about_credits_icon_title">Este aplicativo utiliza icones \'bitboy\'</string>
@@ -227,7 +217,8 @@
 
 	<string name="button_scan">Escanear</string>
 	<string name="button_edit_address">Adicionar/editar endereço</string>
+	<string name="button_settings">Configurações</string>
 	<string name="time_today">hoje</string>
 	<string name="address_unlabeled">(sem nome)</string>
-
+    <string name="wallet_options_disconnect">Desconectar</string>
 </resources>

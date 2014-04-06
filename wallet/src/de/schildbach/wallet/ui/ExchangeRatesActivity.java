@@ -23,7 +23,6 @@ import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.MenuItem;
 import de.schildbach.wallet.infinitecoin.R;
 
-
 /**
  * @author Andreas Schildbach
  */
