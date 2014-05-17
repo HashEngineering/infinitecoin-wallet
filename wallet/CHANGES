@@ -1,5 +1,12 @@
 
------------------Infinitecoin Wallet
+Infinitecoin Wallet
+-----------------
+v0.3.3
+* Updated checkpoints.
+
+v0.3.2
+* Added IrcDiscovery and PeerDBDiscovery to get more peers
+
 v0.3.1
 * remove support.v4-r13 (may be causing some bugs with on pausing activities) - from litecoin wallet
 

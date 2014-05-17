@@ -116,7 +116,7 @@ public abstract class InputParser
 				}
 				catch (final BitcoinURIParseException x)
 				{
-					log.info("got invalid bitcoin uri: '" + input + "'", x);
+					log.info("got invalid "+CoinDefinition.coinURIScheme+" uri: '" + input + "'", x);
 
 					error(R.string.input_parser_invalid_bitcoin_uri, input);
 				}
